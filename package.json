@@ -1,19 +1,25 @@
 {
-  "name": "fullstack_practice",
-  "version": "1.0.0",
-  "description": "practice making a full stack web app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Seanih/fullstack_practice.git"
-  },
-  "author": "Sean Anih",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Seanih/fullstack_practice/issues"
-  },
-  "homepage": "https://github.com/Seanih/fullstack_practice#readme"
+	"name": "fullstack_practice",
+	"version": "1.0.0",
+	"description": "practice making a full stack web app",
+	"main": "index.js",
+	"scripts": {
+		"buildDev": "webpack serve",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Seanih/fullstack_practice.git"
+	},
+	"author": "Sean Anih",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Seanih/fullstack_practice/issues"
+	},
+	"homepage": "https://github.com/Seanih/fullstack_practice#readme",
+	"devDependencies": {
+		"webpack": "^5.24.2",
+		"webpack-cli": "^4.5.0",
+		"webpack-dev-server": "^3.11.2"
+	}
 }
